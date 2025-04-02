@@ -1,0 +1,15 @@
+//renato e samuel
+let aluno=("willyan");
+
+var nota1, nota2, nota3, media;
+
+nota1 = Number(prompt("digite a primeira nota"));
+console.log ("Nota 1: "+(nota1))
+nota2 = Number(prompt("digite a segunda nota"));
+console.log ("Nota 2: "+(nota2))
+nota3 = Number(prompt("digite a terceira nota"));
+console.log("Nota 3: "+(nota3))
+
+console.log ("soma notas "+(nota1+nota2+nota3));
+
+media = (nota1+nota2+nota3)/3;
